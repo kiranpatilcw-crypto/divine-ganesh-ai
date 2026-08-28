@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: kiranpatilcw-crypto/divine-ganesh-ai
+  branch: main
+
+media_folder: ""
+public_folder: ""
+
+collections:
+  - name: "settings"
+    label: "Website Settings"
+    files:
+      - file: "index.html"
+        label: "Index Page HTML"
+        name: "index"
+        fields:
+          - {label: "HTML Code", name: "body", widget: "text"}
